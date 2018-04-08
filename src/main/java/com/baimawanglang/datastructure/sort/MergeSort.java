@@ -1,4 +1,4 @@
-package com.baimawanglang.sort;
+package com.baimawanglang.datastructure.sort;
 
 public class MergeSort {
 

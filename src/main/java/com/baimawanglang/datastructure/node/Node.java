@@ -1,4 +1,4 @@
-package com.baimawanglang.node;
+package com.baimawanglang.datastructure.node;
 
 /**
  * 链表节点

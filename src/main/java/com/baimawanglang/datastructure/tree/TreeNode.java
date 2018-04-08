@@ -1,4 +1,4 @@
-package com.baimawanglang.tree;
+package com.baimawanglang.datastructure.tree;
 
 /**
  * 树节点

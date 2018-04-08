@@ -1,4 +1,4 @@
-package com.baimawanglang.tree;
+package com.baimawanglang.datastructure.tree;
 
 import java.util.LinkedList;
 import java.util.List;

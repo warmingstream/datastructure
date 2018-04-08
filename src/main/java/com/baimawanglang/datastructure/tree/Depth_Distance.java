@@ -1,4 +1,4 @@
-package com.baimawanglang.tree;
+package com.baimawanglang.datastructure.tree;
 
 public class Depth_Distance {
     public int depth;
