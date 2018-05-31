@@ -18,6 +18,13 @@ public interface RedPackService {
      * @return
      */
     public Result getRedPack(String uuid, String userID);
+  /**
+     * 根据红包唯一ID获取红包以及红包金额
+     * @param uuid  红包唯一ID
+     * @param userID  用户ID
+     * @return
+     */
+    public Result getRedPackNew(String uuid, String userID);
 
     /**
      * 根据红包id获取领取记录

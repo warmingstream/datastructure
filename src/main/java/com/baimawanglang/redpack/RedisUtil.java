@@ -1,4 +1,4 @@
-package com.baimawanglang.redpack.service;
+package com.baimawanglang.redpack;
 
 
 public interface RedisUtil {
@@ -9,4 +9,6 @@ public interface RedisUtil {
     Integer get(String uuid);
 
     void set(String uuid, String s);
+
+    String getStr(String uuid);
 }

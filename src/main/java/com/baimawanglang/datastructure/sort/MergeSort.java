@@ -1,8 +1,15 @@
 package com.baimawanglang.datastructure.sort;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class MergeSort {
 
     public static void main(String[] args) {
+        int[] arr1 = {1,2,3};
+        List<int[]> list = Arrays.asList(arr1);
+        list.remove(2);
+        System.out.println();
 
         int[] arr = {6,1,4,2,0,6,8,7,9,6};
         int[] sort = sort(arr, 0, arr.length - 1);
