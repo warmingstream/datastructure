@@ -19,7 +19,7 @@ package com.baimawanglang.redpack;
 public class RedPackTester {
 
     public static void main(String[] args) {
-
+        System.out.println(2222);
     }
 
 }

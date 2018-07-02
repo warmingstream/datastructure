@@ -77,8 +77,15 @@ public class TreeTest {
         return leftD > rightD ? leftD : rightD;
     }
 
-    //求最长距离
-    //最长距离需要减2
+    /**
+     * 求最长距离
+     *
+     * 最长距离需要减2
+     *
+     * 而我们要求的二叉树的最大距离其实就是求：肯定是某个节点左子树的高度加上右子树的高度加2，所以求出每个节点左子树和右子树的高度，取左右子树高度之和加2的最大值即可
+     * @param root
+     * @return
+     */
     public static Depth_Distance getDistance(TreeNode root) {
         if (root == null) {return new Depth_Distance();}
         Depth_Distance left = getDistance(root.left);
