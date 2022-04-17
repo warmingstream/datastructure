@@ -9,7 +9,7 @@ public class NodeTest {
         System.out.println(node.toString());
     }
 
-    //链表反转
+    // 链表反转
     public static Node reverseNode(Node root) {
         Node prev = null;
         while(root != null) {
@@ -20,5 +20,7 @@ public class NodeTest {
         }
         return prev;
     }
+
+    // 链表合并
 
 }
